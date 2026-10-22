@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments and local configuration
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Logs, local databases, test and coverage artifacts
+logs/
+var/
+*.sqlite3
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Local build artifacts
+build/
+dist/
+*.egg-info/
+.DS_Store
+Thumbs.db
