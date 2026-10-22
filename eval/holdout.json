@@ -1,0 +1,125 @@
+{
+  "note": "HELD-OUT fictional scenarios written after the screening rules were tuned on cases.json. Results on this set were NOT used to adjust the rules. No real patient data.",
+  "cases": [
+    {
+      "id": "h01",
+      "text": "heavy bleeding after giving birth yesterday",
+      "expected": "emergency"
+    },
+    {
+      "id": "h02",
+      "text": "she is convulsing and not answering",
+      "expected": "emergency"
+    },
+    {
+      "id": "h03",
+      "text": "I can't breathe well and my chest is tight",
+      "expected": "emergency"
+    },
+    {
+      "id": "h04",
+      "text": "very strong pain in my abdomen that came suddenly",
+      "expected": "emergency"
+    },
+    {
+      "id": "h05",
+      "text": "my vision went blurry and I have a pounding headache",
+      "expected": "emergency"
+    },
+    {
+      "id": "h06",
+      "text": "I passed out at the market",
+      "expected": "emergency"
+    },
+    {
+      "id": "h07",
+      "text": "baby has stopped moving inside me",
+      "expected": "emergency"
+    },
+    {
+      "id": "h08",
+      "text": "I keep thinking of hurting myself",
+      "expected": "emergency"
+    },
+    {
+      "id": "h09",
+      "text": "there is blood on my pad and I am 7 months pregnant",
+      "expected": "emergency"
+    },
+    {
+      "id": "h10",
+      "text": "my newborn is breathing very fast",
+      "expected": "emergency"
+    },
+    {
+      "id": "h11",
+      "text": "temperature is high since last night",
+      "expected": "urgent"
+    },
+    {
+      "id": "h12",
+      "text": "my ankles are puffy and swollen",
+      "expected": "urgent"
+    },
+    {
+      "id": "h13",
+      "text": "fluid is leaking from my vagina",
+      "expected": "urgent"
+    },
+    {
+      "id": "h14",
+      "text": "I have been vomiting a lot and feel weak",
+      "expected": "urgent"
+    },
+    {
+      "id": "h15",
+      "text": "I feel hopeless since the baby came",
+      "expected": "urgent"
+    },
+    {
+      "id": "h16",
+      "text": "the clinic said my BP is high",
+      "expected": "urgent"
+    },
+    {
+      "id": "h17",
+      "text": "I have a burning feeling when I urinate",
+      "expected": "urgent"
+    },
+    {
+      "id": "h18",
+      "text": "what fruits are good for pregnant women",
+      "expected": "routine"
+    },
+    {
+      "id": "h19",
+      "text": "I am not bleeding, just asking about family planning",
+      "expected": "routine"
+    },
+    {
+      "id": "h20",
+      "text": "how long should I breastfeed",
+      "expected": "routine"
+    },
+    {
+      "id": "h21",
+      "text": "I had a normal check up today and everything was fine",
+      "expected": "routine"
+    },
+    {
+      "id": "h22",
+      "text": "my feet hurt from standing all day",
+      "expected": "routine"
+    },
+    {
+      "id": "h23",
+      "text": "no headache, no swelling, just tired",
+      "expected": "routine"
+    },
+    {
+      "id": "h24",
+      "text": "where can I buy a mosquito net",
+      "expected": "routine"
+    }
+  ]
+}
