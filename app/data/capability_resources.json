@@ -1,0 +1,27 @@
+{
+  "version": "0.1.0",
+  "intro": "Zuri Circle helps women build income and savings so they can act on care advice and support their families.",
+  "resources": [
+    {
+      "id": "execution_track",
+      "title": "90-day execution track",
+      "summary": "A structured 90-day programme with weekly goals, peer accountability and coaching to grow your business and prepare for capital.",
+      "link": "https://zuricirclenetwork.com"
+    },
+    {
+      "id": "emergency_fund",
+      "title": "Build a health emergency fund",
+      "summary": "Set aside a small amount every week for transport and care costs at delivery. A savings group can help you stay consistent."
+    },
+    {
+      "id": "record_keeping",
+      "title": "Keep simple business records",
+      "summary": "Write down what you sell and spend each day. Clear records help you see profit and qualify for loans or grants."
+    },
+    {
+      "id": "peer_circle",
+      "title": "Join a peer circle",
+      "summary": "Meet other women operators to share progress, solve problems and keep each other accountable."
+    }
+  ]
+}

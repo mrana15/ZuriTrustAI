@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZuriTrustAI</title>
+  <meta name="description" content="Maternal-health information, danger-sign check and referral support from Zuri Circle.">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <h1>ZuriTrustAI</h1>
+    <p class="tag">Trusted maternal-health information and referral support</p>
+  </header>
+
+  <div class="alert" role="alert">
+    <strong>Emergency?</strong> Bleeding, fits, severe headache with blurred vision, severe belly pain or difficult
+    breathing: go to a hospital <strong>now</strong> or call <span id="emg">112</span>.
+  </div>
+
+  <nav role="tablist">
+    <button role="tab" aria-selected="true" data-tab="chat">Chat</button>
+    <button role="tab" aria-selected="false" data-tab="check">Check symptoms</button>
+    <button role="tab" aria-selected="false" data-tab="care">Find care</button>
+  </nav>
+
+  <main>
+    <section id="chat" class="panel">
+      <div id="log" aria-live="polite"></div>
+      <form id="chatForm" autocomplete="off">
+        <label for="msg" class="sr">Your message</label>
+        <input id="msg" maxlength="1000" placeholder="Type a question or how you feel..." required>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <section id="check" class="panel" hidden>
+      <p>Tick anything you have now, then press <em>Check</em>.</p>
+      <form id="checkForm">
+        <div id="signs" class="signs"></div>
+        <button type="submit">Check</button>
+      </form>
+      <div id="checkResult" aria-live="polite"></div>
+    </section>
+
+    <section id="care" class="panel" hidden>
+      <form id="careForm">
+        <label for="state">Your state</label>
+        <select id="state"></select>
+        <label for="lvl">How soon?</label>
+        <select id="lvl">
+          <option value="emergency">Emergency - now</option>
+          <option value="same_day">Today</option>
+          <option value="routine" selected>Routine visit</option>
+        </select>
+        <button type="submit">Search</button>
+      </form>
+      <div id="careResult"></div>
+      <p class="small" id="careNote"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>ZuriTrustAI gives information and referral support only. It does not diagnose. Always follow your health worker.</p>
+    <p>We do not store your messages. Open source &middot; Zuri Circle</p>
+  </footer>
+  <script src="/static/app.js"></script>
+</body>
+</html>

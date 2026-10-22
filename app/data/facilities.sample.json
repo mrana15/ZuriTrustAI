@@ -1,0 +1,19 @@
+{
+  "note": "SAMPLE DATA ONLY. All facilities below are fictional placeholders used for development and demos. Replace with a verified, regularly updated facility list (with local partners) before any pilot.",
+  "emergency_number": "112",
+  "state_aliases": {"abuja": "FCT", "fct": "FCT", "federal capital territory": "FCT", "lagos state": "Lagos"},
+  "facilities": [
+    {"name": "Sample Teaching Hospital (placeholder)", "state": "Lagos", "area": "Ikeja", "level": "tertiary", "hours": "24h", "phone": "+234-000-000-0001", "services": ["emergency obstetric care", "newborn care", "antenatal"]},
+    {"name": "Sample General Hospital (placeholder)", "state": "Lagos", "area": "Surulere", "level": "secondary", "hours": "24h", "phone": "+234-000-000-0002", "services": ["emergency obstetric care", "antenatal", "postnatal"]},
+    {"name": "Sample Primary Health Centre (placeholder)", "state": "Lagos", "area": "Yaba", "level": "primary", "hours": "08:00-16:00", "phone": "+234-000-000-0003", "services": ["antenatal", "postnatal", "family planning", "immunization"]},
+    {"name": "Sample Federal Medical Centre (placeholder)", "state": "FCT", "area": "Garki", "level": "tertiary", "hours": "24h", "phone": "+234-000-000-0011", "services": ["emergency obstetric care", "newborn care", "antenatal"]},
+    {"name": "Sample District Hospital (placeholder)", "state": "FCT", "area": "Kubwa", "level": "secondary", "hours": "24h", "phone": "+234-000-000-0012", "services": ["emergency obstetric care", "antenatal", "postnatal"]},
+    {"name": "Sample Primary Health Centre (placeholder)", "state": "FCT", "area": "Nyanya", "level": "primary", "hours": "08:00-16:00", "phone": "+234-000-000-0013", "services": ["antenatal", "postnatal", "immunization"]},
+    {"name": "Sample Specialist Hospital (placeholder)", "state": "Kano", "area": "Nassarawa", "level": "secondary", "hours": "24h", "phone": "+234-000-000-0021", "services": ["emergency obstetric care", "antenatal"]},
+    {"name": "Sample Primary Health Centre (placeholder)", "state": "Kano", "area": "Fagge", "level": "primary", "hours": "08:00-16:00", "phone": "+234-000-000-0022", "services": ["antenatal", "postnatal", "immunization"]},
+    {"name": "Sample Teaching Hospital (placeholder)", "state": "Enugu", "area": "Enugu North", "level": "tertiary", "hours": "24h", "phone": "+234-000-000-0031", "services": ["emergency obstetric care", "newborn care"]},
+    {"name": "Sample Primary Health Centre (placeholder)", "state": "Enugu", "area": "Nsukka", "level": "primary", "hours": "08:00-16:00", "phone": "+234-000-000-0032", "services": ["antenatal", "postnatal"]},
+    {"name": "Sample General Hospital (placeholder)", "state": "Rivers", "area": "Port Harcourt", "level": "secondary", "hours": "24h", "phone": "+234-000-000-0041", "services": ["emergency obstetric care", "antenatal", "postnatal"]},
+    {"name": "Sample Primary Health Centre (placeholder)", "state": "Rivers", "area": "Obio-Akpor", "level": "primary", "hours": "08:00-16:00", "phone": "+234-000-000-0042", "services": ["antenatal", "immunization"]}
+  ]
+}

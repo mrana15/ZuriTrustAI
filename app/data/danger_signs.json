@@ -1,0 +1,461 @@
+{
+  "version": "0.1.1",
+  "review_status": "DRAFT - pending review and sign-off by the Zuri Circle Chief Medical Officer. Not for clinical use until approved.",
+  "source_note": "Danger-sign groupings adapted from WHO, 'Pregnancy, Childbirth, Postpartum and Newborn Care: A guide for essential practice' (3rd ed., 2015) and WHO newborn danger-sign guidance. Wording simplified for low-literacy users.",
+  "levels": {
+    "emergency": {
+      "rank": 3,
+      "referral_level": "emergency",
+      "advice": "DANGER SIGN. Go to the nearest hospital or health facility NOW. Do not wait. Ask someone to go with you. If you cannot travel, call {emergency_number}."
+    },
+    "urgent": {
+      "rank": 2,
+      "referral_level": "same_day",
+      "advice": "Please go to a health facility TODAY, within the next few hours, to be checked by a health worker. If you feel worse, go immediately or call {emergency_number}."
+    },
+    "routine": {
+      "rank": 1,
+      "referral_level": "routine",
+      "advice": "I did not find a danger sign in what you described. This is not a diagnosis. Keep your antenatal or postnatal visits. Go to a facility immediately if you have bleeding, fits, severe headache with blurred vision, fever with weakness, severe belly pain or difficult breathing."
+    }
+  },
+  "signs": [
+    {
+      "id": "vaginal_bleeding",
+      "label": "Bleeding from the vagina",
+      "level": "emergency",
+      "phrases": [
+        "bleeding",
+        "bleed",
+        "bleeds",
+        "blood coming out",
+        "passing blood",
+        "blood clots",
+        "spotting",
+        "blood from my vagina",
+        "vaginal blood",
+        "losing blood",
+        "blood is coming out",
+        "blood coming",
+        "see blood",
+        "seeing blood",
+        "there is blood",
+        "i saw blood"
+      ],
+      "exclude_context": [
+        "gum",
+        "gums",
+        "nose",
+        "from my nose",
+        "from my gums",
+        "test",
+        "tests",
+        "pressure",
+        "tonic",
+        "group",
+        "sugar"
+      ]
+    },
+    {
+      "id": "convulsions",
+      "label": "Fits or convulsions",
+      "level": "emergency",
+      "phrases": [
+        "convulsion",
+        "convulsions",
+        "convulsing",
+        "fits",
+        "fitting",
+        "seizure",
+        "seizures",
+        "shaking uncontrollably",
+        "jerking"
+      ]
+    },
+    {
+      "id": "severe_headache_blurred_vision",
+      "label": "Severe headache with blurred vision",
+      "level": "emergency",
+      "all_of": [
+        [
+          "headache",
+          "head pain",
+          "head is aching",
+          "head dey pain",
+          "my head hurts"
+        ],
+        [
+          "blurred",
+          "blurry",
+          "blur",
+          "seeing spots",
+          "seeing stars",
+          "cannot see well",
+          "can't see well",
+          "vision is",
+          "my eyes are not clear"
+        ]
+      ],
+      "supersedes": [
+        "severe_headache"
+      ]
+    },
+    {
+      "id": "fever_too_weak",
+      "label": "Fever and too weak to get out of bed",
+      "level": "emergency",
+      "all_of": [
+        [
+          "fever",
+          "high temperature",
+          "hot body",
+          "feverish",
+          "temperature is high"
+        ],
+        [
+          "too weak",
+          "very weak",
+          "cannot get up",
+          "can't get up",
+          "cannot get out of bed",
+          "can't get out of bed",
+          "cannot stand",
+          "can't stand"
+        ]
+      ],
+      "supersedes": [
+        "fever"
+      ]
+    },
+    {
+      "id": "severe_abdominal_pain",
+      "label": "Severe abdominal (belly) pain",
+      "level": "emergency",
+      "all_of": [
+        [
+          "severe",
+          "very bad",
+          "terrible",
+          "strong",
+          "serious",
+          "unbearable",
+          "very painful",
+          "too much"
+        ],
+        [
+          "abdominal pain",
+          "stomach pain",
+          "belly pain",
+          "tummy pain",
+          "pain in my belly",
+          "pain in my stomach",
+          "pain in my abdomen",
+          "abdomen",
+          "stomach",
+          "belly",
+          "tummy"
+        ]
+      ],
+      "supersedes": [
+        "abdominal_pain"
+      ],
+      "same_clause": true
+    },
+    {
+      "id": "difficult_breathing",
+      "label": "Fast or difficult breathing",
+      "level": "emergency",
+      "phrases": [
+        "difficult breathing",
+        "difficulty breathing",
+        "hard to breathe",
+        "can't breathe",
+        "cannot breathe",
+        "fast breathing",
+        "breathing fast",
+        "short of breath",
+        "shortness of breath",
+        "struggling to breathe",
+        "breathing is difficult",
+        "breathing very fast",
+        "breathing too fast",
+        "breathing so fast",
+        "breathes fast",
+        "breathes very fast",
+        "breathing hard"
+      ]
+    },
+    {
+      "id": "unconscious",
+      "label": "Fainting or unconscious",
+      "level": "emergency",
+      "phrases": [
+        "unconscious",
+        "fainted",
+        "fainting",
+        "passed out",
+        "collapsed",
+        "not waking up"
+      ]
+    },
+    {
+      "id": "no_fetal_movement",
+      "label": "Baby has stopped moving",
+      "level": "emergency",
+      "phrases": [
+        "baby is not moving",
+        "baby has stopped moving",
+        "baby stopped moving",
+        "baby not moving",
+        "no fetal movement",
+        "can't feel the baby",
+        "cannot feel the baby",
+        "stopped feeling the baby",
+        "baby is no longer moving"
+      ],
+      "supersedes": [
+        "reduced_fetal_movement"
+      ]
+    },
+    {
+      "id": "self_harm_risk",
+      "label": "Thoughts of harming yourself or your baby",
+      "level": "emergency",
+      "phrases": [
+        "kill myself",
+        "harm myself",
+        "hurt myself",
+        "end my life",
+        "suicide",
+        "suicidal",
+        "harm my baby",
+        "hurt my baby",
+        "don't want to live",
+        "do not want to live",
+        "hurting myself",
+        "harming myself",
+        "killing myself",
+        "take my life",
+        "hurting my baby",
+        "harming my baby"
+      ],
+      "advice_override": "You deserve support right now. Please tell someone you trust and go to the nearest health facility, or call {emergency_number}. You do not have to face this alone."
+    },
+    {
+      "id": "newborn_not_feeding",
+      "label": "Newborn not feeding well",
+      "level": "emergency",
+      "phrases": [
+        "baby is not feeding",
+        "baby not feeding",
+        "baby is not breastfeeding",
+        "baby refuses to feed",
+        "baby won't feed",
+        "baby will not feed",
+        "baby cannot suck",
+        "baby can't suck",
+        "cannot suck",
+        "can't suck",
+        "not sucking",
+        "unable to feed"
+      ]
+    },
+    {
+      "id": "fever",
+      "label": "Fever",
+      "level": "urgent",
+      "phrases": [
+        "fever",
+        "high temperature",
+        "hot body",
+        "feverish",
+        "temperature is high",
+        "chills"
+      ]
+    },
+    {
+      "id": "abdominal_pain",
+      "label": "Abdominal (belly) pain",
+      "level": "urgent",
+      "phrases": [
+        "abdominal pain",
+        "stomach pain",
+        "belly pain",
+        "tummy pain",
+        "pain in my belly",
+        "pain in my stomach",
+        "pain in my abdomen",
+        "cramps",
+        "cramping",
+        "stomach ache",
+        "stomach hurts",
+        "belly hurts"
+      ]
+    },
+    {
+      "id": "severe_headache",
+      "label": "Severe headache",
+      "level": "urgent",
+      "phrases": [
+        "severe headache",
+        "very bad headache",
+        "terrible headache",
+        "strong headache",
+        "headache that will not go",
+        "headache that won't go"
+      ]
+    },
+    {
+      "id": "swelling",
+      "label": "Swelling of face, hands or legs",
+      "level": "urgent",
+      "phrases": [
+        "swelling",
+        "swollen",
+        "puffy face",
+        "puffy hands",
+        "face is swollen",
+        "legs are swollen"
+      ]
+    },
+    {
+      "id": "reduced_fetal_movement",
+      "label": "Baby moving less than usual",
+      "level": "urgent",
+      "phrases": [
+        "baby is moving less",
+        "baby moving less",
+        "fewer kicks",
+        "less movement",
+        "reduced movement",
+        "not kicking much",
+        "baby is quiet"
+      ]
+    },
+    {
+      "id": "waters_broken",
+      "label": "Waters broken or fluid leaking",
+      "level": "urgent",
+      "phrases": [
+        "water broke",
+        "waters broke",
+        "water has broken",
+        "waters have broken",
+        "leaking fluid",
+        "fluid leaking",
+        "water is leaking",
+        "gush of water",
+        "fluid is leaking",
+        "leaking water",
+        "water is coming out"
+      ]
+    },
+    {
+      "id": "foul_discharge",
+      "label": "Bad-smelling discharge",
+      "level": "urgent",
+      "phrases": [
+        "smelly discharge",
+        "foul smelling discharge",
+        "foul-smelling discharge",
+        "bad smell",
+        "foul smell",
+        "discharge smells"
+      ]
+    },
+    {
+      "id": "persistent_vomiting",
+      "label": "Vomiting that will not stop",
+      "level": "urgent",
+      "phrases": [
+        "vomiting everything",
+        "can't keep food down",
+        "cannot keep food down",
+        "cannot keep anything down",
+        "vomiting a lot",
+        "persistent vomiting",
+        "vomiting all day"
+      ]
+    },
+    {
+      "id": "feels_very_ill",
+      "label": "Feeling very ill",
+      "level": "urgent",
+      "phrases": [
+        "feel very ill",
+        "feel very sick",
+        "feeling very sick",
+        "feeling very unwell",
+        "feel very unwell",
+        "very ill"
+      ]
+    },
+    {
+      "id": "low_mood",
+      "label": "Very low mood",
+      "level": "urgent",
+      "phrases": [
+        "very sad",
+        "hopeless",
+        "can't stop crying",
+        "cannot stop crying",
+        "depressed",
+        "feel worthless"
+      ]
+    },
+    {
+      "id": "newborn_yellow",
+      "label": "Newborn yellow skin or eyes",
+      "level": "urgent",
+      "phrases": [
+        "yellow palms",
+        "yellow soles",
+        "baby is yellow",
+        "baby looks yellow",
+        "yellow eyes",
+        "yellow baby",
+        "skin is yellow",
+        "look yellow",
+        "looks yellow",
+        "are yellow",
+        "turning yellow"
+      ]
+    },
+    {
+      "id": "newborn_cold",
+      "label": "Newborn feels cold",
+      "level": "urgent",
+      "phrases": [
+        "baby feels cold",
+        "baby is cold",
+        "baby's body is cold"
+      ]
+    },
+    {
+      "id": "high_blood_pressure",
+      "label": "High blood pressure reading",
+      "level": "urgent",
+      "phrases": [
+        "high blood pressure",
+        "blood pressure is high",
+        "bp is high",
+        "high bp",
+        "hypertension"
+      ]
+    },
+    {
+      "id": "urinary_burning",
+      "label": "Burning or pain when passing urine",
+      "level": "urgent",
+      "phrases": [
+        "burning when i urinate",
+        "burning feeling when i urinate",
+        "burning when i pee",
+        "pain when i urinate",
+        "pain when urinating",
+        "burning urine",
+        "painful urination"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "version": "0.1.0",
+  "review_status": "DRAFT - pending review and sign-off by the Zuri Circle Chief Medical Officer.",
+  "entries": [
+    {
+      "id": "anc_visits",
+      "title": "Antenatal care visits",
+      "questions": [
+        "how many antenatal visits do i need",
+        "when should i start antenatal care",
+        "how often should i go to the clinic when pregnant",
+        "antenatal clinic visits",
+        "when to start ANC"
+      ],
+      "answer": "Start antenatal care as early as possible, ideally in the first 12 weeks of pregnancy. WHO recommends at least 8 antenatal care contacts during pregnancy. At each visit a health worker checks you and your baby, your blood pressure and your blood, and helps you plan for birth.",
+      "source": "WHO recommendations on antenatal care for a positive pregnancy experience (2016)"
+    },
+    {
+      "id": "danger_signs_pregnancy",
+      "title": "Danger signs in pregnancy",
+      "questions": [
+        "what are danger signs in pregnancy",
+        "when should i go to hospital immediately",
+        "warning signs during pregnancy",
+        "signs that something is wrong in pregnancy"
+      ],
+      "answer": "Go to a health facility immediately if you have: bleeding from the vagina, fits or convulsions, severe headache with blurred vision, fever and too weak to get out of bed, severe belly pain, or fast or difficult breathing. Go the same day for fever, belly pain, swelling of face, hands or legs, waters breaking, or if your baby moves less.",
+      "source": "WHO Pregnancy, Childbirth, Postpartum and Newborn Care guide (2015)"
+    },
+    {
+      "id": "nutrition",
+      "title": "Eating well in pregnancy",
+      "questions": [
+        "what should i eat when pregnant",
+        "pregnancy diet",
+        "healthy food during pregnancy",
+        "foods to eat in pregnancy",
+        "nutrition in pregnancy"
+      ],
+      "answer": "Eat a variety of foods every day: beans, fish, eggs or meat for protein; green leafy vegetables and fruits; and grains or tubers for energy. Drink clean water. Ask your health worker about daily iron and folic acid tablets, which help prevent anaemia and protect your baby.",
+      "source": "WHO recommendations on antenatal care (2016)"
+    },
+    {
+      "id": "iron_folic",
+      "title": "Iron and folic acid",
+      "questions": [
+        "do i need iron tablets",
+        "folic acid in pregnancy",
+        "why take iron in pregnancy",
+        "anaemia in pregnancy",
+        "blood tonic"
+      ],
+      "answer": "Iron and folic acid supplements help prevent anaemia (low blood) and some birth defects. WHO recommends daily iron and folic acid during pregnancy. Your health worker will give you the right tablets and dose. Take them with water or fruit, not with tea.",
+      "source": "WHO recommendations on antenatal care (2016)"
+    },
+    {
+      "id": "malaria",
+      "title": "Preventing malaria in pregnancy",
+      "questions": [
+        "how do i prevent malaria in pregnancy",
+        "malaria when pregnant",
+        "mosquito net pregnancy",
+        "IPTp malaria medicine"
+      ],
+      "answer": "Malaria is dangerous for you and your baby. Sleep under an insecticide-treated mosquito net every night. In malaria areas, ask at your antenatal visits for preventive malaria medicine (IPTp). If you have fever, go to a health facility the same day to be tested.",
+      "source": "WHO guidelines for malaria (2023)"
+    },
+    {
+      "id": "tetanus",
+      "title": "Tetanus vaccination",
+      "questions": [
+        "do i need tetanus injection",
+        "vaccines in pregnancy",
+        "tetanus toxoid",
+        "TT injection pregnancy"
+      ],
+      "answer": "Tetanus vaccination during pregnancy protects you and your newborn. Ask at your antenatal visit whether you need a dose; it depends on how many doses you had before.",
+      "source": "WHO recommendations on antenatal care (2016)"
+    },
+    {
+      "id": "hiv_testing",
+      "title": "HIV and other tests",
+      "questions": [
+        "do i need hiv test in pregnancy",
+        "tests during pregnancy",
+        "blood tests antenatal",
+        "syphilis test pregnancy"
+      ],
+      "answer": "At antenatal care you will be offered tests for HIV, syphilis, hepatitis B, anaemia and others. Testing is confidential. If a test is positive, treatment can protect your health and greatly reduce the chance of passing infection to your baby.",
+      "source": "WHO recommendations on antenatal care (2016)"
+    },
+    {
+      "id": "birth_plan",
+      "title": "Planning for birth",
+      "questions": [
+        "how do i prepare for delivery",
+        "birth plan",
+        "what to pack for delivery",
+        "where should i give birth",
+        "preparing for labour"
+      ],
+      "answer": "Plan to give birth with a skilled health worker in a health facility. Decide where you will go, how you will get there day or night, who will go with you, and save money for transport and supplies. Keep your antenatal card ready. Know the danger signs.",
+      "source": "WHO Pregnancy, Childbirth, Postpartum and Newborn Care guide (2015)"
+    },
+    {
+      "id": "labour_signs",
+      "title": "Signs of labour",
+      "questions": [
+        "how do i know labour has started",
+        "signs of labour",
+        "contractions",
+        "when to go to hospital for delivery"
+      ],
+      "answer": "Labour may be starting if you have regular, painful contractions that get closer together, a bloody mucus show, or your waters break. Go to your planned facility when contractions are regular or your waters break. Go immediately if there is heavy bleeding.",
+      "source": "WHO Pregnancy, Childbirth, Postpartum and Newborn Care guide (2015)"
+    },
+    {
+      "id": "breastfeeding",
+      "title": "Breastfeeding",
+      "questions": [
+        "how long should i breastfeed",
+        "exclusive breastfeeding",
+        "can i give water to my baby",
+        "breastfeeding tips",
+        "when to start breastfeeding"
+      ],
+      "answer": "Start breastfeeding within the first hour after birth. Give only breast milk - no water, other milk or food - for the first 6 months. Feed whenever the baby wants, day and night. Continue breastfeeding with other foods up to 2 years or beyond.",
+      "source": "WHO/UNICEF infant and young child feeding guidance"
+    },
+    {
+      "id": "postnatal_care",
+      "title": "Care after birth",
+      "questions": [
+        "care after delivery",
+        "postnatal check",
+        "when should i go for check after birth",
+        "postpartum care"
+      ],
+      "answer": "You and your baby should be checked by a health worker within 24 hours after birth, and again on day 3, between days 7 and 14, and at 6 weeks. Go immediately if you have heavy bleeding, fever, bad-smelling discharge, severe headache or difficult breathing.",
+      "source": "WHO recommendations on maternal and newborn care for a positive postnatal experience (2022)"
+    },
+    {
+      "id": "newborn_danger",
+      "title": "Danger signs in a newborn",
+      "questions": [
+        "danger signs in newborn baby",
+        "when to take my baby to hospital",
+        "newborn warning signs",
+        "sick newborn",
+        "my baby looks yellow",
+        "baby skin colour"
+      ],
+      "answer": "Take your baby to a health facility immediately if the baby is not feeding well, has fits, breathes fast or with difficulty, has fever or feels cold, moves only when touched, or has yellow palms and soles.",
+      "source": "WHO newborn care guidance"
+    },
+    {
+      "id": "family_planning",
+      "title": "Family planning after birth",
+      "questions": [
+        "family planning after delivery",
+        "contraception after birth",
+        "when can i get pregnant again",
+        "child spacing"
+      ],
+      "answer": "Waiting at least 2 years after a birth before trying for another pregnancy is healthier for you and your baby. Many family-planning methods are safe while breastfeeding. Ask your health worker about the options that suit you.",
+      "source": "WHO report on birth spacing (2005)"
+    },
+    {
+      "id": "mental_health",
+      "title": "Feelings after birth",
+      "questions": [
+        "i feel sad after birth",
+        "baby blues",
+        "postpartum depression",
+        "feeling low after delivery",
+        "stress in pregnancy"
+      ],
+      "answer": "Many women feel tearful or low in the first days after birth, and this usually passes. If sadness lasts more than 2 weeks or makes it hard to care for yourself or your baby, talk to a health worker - support and treatment help. If you have thoughts of harming yourself or your baby, get help immediately.",
+      "source": "WHO guide for integration of perinatal mental health (2022)"
+    },
+    {
+      "id": "exercise",
+      "title": "Activity and rest",
+      "questions": [
+        "can i exercise when pregnant",
+        "how much rest in pregnancy",
+        "can i work while pregnant",
+        "physical activity pregnancy"
+      ],
+      "answer": "Regular light activity such as walking is good during a healthy pregnancy. Rest when you are tired and avoid very heavy lifting. Ask your health worker if you have any complications.",
+      "source": "WHO recommendations on antenatal care (2016)"
+    },
+    {
+      "id": "about",
+      "title": "About ZuriTrustAI",
+      "questions": [
+        "what is zuritrustai",
+        "who are you",
+        "is this a doctor",
+        "what can you do"
+      ],
+      "answer": "ZuriTrustAI is an information and referral assistant from Zuri Circle. I share verified maternal-health information, help you check for danger signs, and show where to get care. I am not a doctor and I do not diagnose. Always follow the advice of your health worker.",
+      "source": "Zuri Circle"
+    },
+    {
+      "id": "privacy",
+      "title": "Your privacy",
+      "questions": [
+        "is my information private",
+        "do you store my data",
+        "delete my data",
+        "who can see my messages"
+      ],
+      "answer": "ZuriTrustAI does not store the text of your messages. Your phone number is replaced with a code before anything is recorded. Reply DELETE at any time to clear your session.",
+      "source": "Zuri Circle privacy notice"
+    }
+  ]
+}
