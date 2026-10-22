@@ -120,7 +120,7 @@ app/
   static/          Low-bandwidth web client
 eval/              Fictional test scenarios and evaluation script
 tests/             Unit and API tests
-docs/              Architecture, clinical review process, pitch-video script
+docs/              Architecture, clinical review process
 ```
 
 ## How this repository maps to the UNICEF Venture Fund application
