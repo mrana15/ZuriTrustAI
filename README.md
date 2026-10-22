@@ -155,17 +155,6 @@ All clinical content lives in versioned JSON files so clinicians can review it w
 - **Dr. Md. Masud Rana**, Lamar University — technical advisor: AI/ML, architecture, open-source implementation.
 - **Dr. Lucy Tsado**, Lamar University — cybersecurity, digital-risk and data-protection advisor.
 
-## Before public release or UNICEF submission
-
-- [ ] Replace the GitHub clone URL placeholder with the actual repository URL.
-- [ ] Confirm all source folders (`app/`, `tests/`, `eval/`, and `docs/`) are present in the repository.
-- [ ] Run unit tests and evaluation commands on the exact commit and include truthful reports.
-- [ ] Review `.env.example`; never commit `.env`, API tokens, or private data.
-- [ ] Configure a monitored private vulnerability-reporting channel.
-- [ ] Obtain clinical review and sign-off; independently test with a new, clinician-reviewed fictional test set.
-- [ ] Replace all fictional facility records before a pilot and verify referral details.
-- [ ] Confirm ownership and permission to publish the code under the selected license and to use university names/logos.
-- [ ] Describe WhatsApp, NLP, privacy, and security features only to the extent they are implemented and tested in the current commit.
 
 ## License
 
